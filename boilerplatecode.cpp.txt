@@ -1,0 +1,46 @@
+
+#include <bits/stdc++.h>
+#define f first
+#define s second
+#define pb push_back
+#define po pop_back
+#define sz(s) int(s.size())
+#define all(s) s.begin(), s.end()
+#define re resize
+#define int ll
+#define VI fixed<<setprecision(20)
+#pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
+#pragma GCC optimize("inline")
+#pragma GCC target("avx,avx2,fma")
+#pragma GCC target("popcnt")
+#pragma GCC target("bmi,bmi2")
+#pragma GCC target("lzcnt")
+#pragma GCC target("sse4.2")
+#pragma GCC optimization("Ofast")
+using ll = long long;
+using ld = double;
+using namespace std;
+ 
+mt19937 rnd(228);
+vector <int> l(11);
+
+void f() {
+    int n, m;
+    cin >> n >> m;
+    vector <int> a(n);
+    for (i = 0; i < n; i++)
+        cin >> a[i];
+    
+    cout<<'\n';
+}
+signed main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+    int t;
+    cin >> t;
+    while (t--) {
+        f();
+    }
+}
