@@ -22,7 +22,18 @@ for _ in range(0, T):
         a.append(row)
     l = [[0] * m for x in range(n)]
     t = [[0] * m for x in range(n)]
-    //till to zero
+
+    a = []
+    max=0
+    sum=0
+    flag=0
+    for i in range(n):
+        row = list(map(int, input().split()))
+        a.append(row)
     
-    
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    a.sort()
+    b.sort()
+    third = [a[j] + b[j] for j in range(len(a))]
     
